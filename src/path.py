@@ -150,10 +150,10 @@ class TurtleBot:
 if __name__ == '__main__':
 
 	list_points = []
-	list_points.append([1,1])
+	list_points.append([1,3])
 	list_points.append([1,6])
 	list_points.append([6,6])
-	list_points.append([6,1])
+	list_points.append([6,2])
 	x = TurtleBot()
 	for i in list_points:
 		try:
